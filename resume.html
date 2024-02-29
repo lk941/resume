@@ -1,0 +1,211 @@
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Lee Kee</title>
+<style>
+body {
+    color: #000000;
+    background: #EEEEEE;
+    font: 1.1em "Times New Roman";
+    line-height: 1.2;
+    margin: 40px 0;
+}
+#resume {
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 40px 60px;
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    box-shadow: 2px 2px 4px #AAAAAA;
+    -webkit-box-shadow: 2px 2px 4px #AAAAAA;
+}
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 200%;
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    border-bottom: 1px solid #000000;
+    text-transform: uppercase;
+    font-size: 130%;
+    margin: 1em 0 0 0;
+    padding: 0;
+}
+h3 {
+    font-size: 100%;
+    margin: 0.8em 0 0.3em 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+p {
+    margin: 0 0 0.5em 0;
+    padding: 0;
+    }
+ul {
+    padding: 0;
+    margin: 0 1.5em;
+    }
+/* ul immediately after h1 = contact list */
+h1 + ul {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    }
+h1 + ul > li {
+    display: inline;
+    white-space: pre;
+    list-style-type: none;
+}
+h1 + ul > li:after {
+    content: "  \2022  ";
+}
+h1 + ul > li:last-child:after {
+    content: "";
+}
+/* p immediately after contact list = summary */
+h1 + ul + p {
+    margin: 1em 0;
+}
+@media print {
+    body {
+        font-size: 10pt;
+        margin: 0;
+        padding: 0;
+        background: none;
+    }
+    #resume {
+        margin: 0;
+        padding: 0;
+        border: 0px;
+        background: none;
+        box-shadow: none;
+        -webkit-box-shadow: none;
+    }
+    /* Make links black in PDF */
+    /* Move this outside the print block to apply this in HTML too */
+    a, a:link, a:visited, a:hover {
+        color: #000000;
+        text-decoration: underline;
+    }
+}
+@page {
+    /* Change margins and paper size of PDF */
+    /* https://developer.mozilla.org/en-US/docs/Web/CSS/@page */
+    size: letter;
+    margin: 0.5in 0.8in;
+}
+@media screen and (max-width: 800px) {
+    body {
+        font-size: 16pt;
+        margin: 0;
+        padding: 0;
+        background: #FFFFFF !important;
+    }
+    #resume {
+        margin: 0;
+        padding: 1em;
+        border: 0px;
+        background: none;
+        box-shadow: none;
+        -webkit-box-shadow: none;
+    }
+}
+
+</style>
+</head>
+<body>
+<div id="resume">
+<h1>Lee Kee</h1>
+<ul>
+<li><a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#108;&#101;&#101;&#107;&#101;&#101;&#108;&#113;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;">&#108;&#101;&#101;&#107;&#101;&#101;&#108;&#113;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;</a></li>
+<li>Github <a href="https://github.com/lk941">https://github.com/lk941</a></li>
+<li>Singapore</li>
+</ul>
+<p>A proactive, independent learner seeking to build a rewarding career in the IT industry. With a focus on software engineering and data analytics, I thrive on challenges and working effectively in a team to learn, grow, and contribute positively to business outcomes. </p>
+<h2>Skills</h2>
+<ul>
+<li>Programming (High &amp; low level)</li>
+<li>Full Stack Development</li>
+</ul>
+<h2>Experience</h2>
+<h3><span>Coding</span></h3>
+<ul>
+<li>Python, C, C#, C++, Javascript, Java, Assembly</li>
+</ul>
+<h3><span>Technologies/Environment</span></h3>
+<ul>
+<li>Windows, Google Suite, Linux, Web frameworks, Docker, Kubernetes</li>
+</ul>
+<h2>Employment History</h2>
+<h3><span>Programmer Analyst at Cognizant Technology Solutions</span> <span>July 2021 - Aug 2022</span></h3>
+<ul>
+<li>Configured build automation tools; migrated CI/CD pipelines for deploying client banking applications from TeamCity to GitLab with Ansible. </li>
+<li>Worked with Java 11, Maven, and Spring Boot framework.</li>
+<li>Implemented new test cases (TDD) with JUnit for client banking application service to save time on testing efforts.</li>
+</ul>
+<h3><span>System Analyst at United Overseas Bank (UOB) </span> <span>Mar 2021 &ndash; Jun 2021</span></h3>
+<ul>
+<li>Worked on a technical upgrade project for the company&rsquo;s mobile banking application in the quality assurance team. Primary role was executing test scripts, producing reports, and simulating test environments with IBM legacy systems.</li>
+<li>Documented application states, raised defects, and assisted in troubleshooting bugs.</li>
+</ul>
+<h2>Projects</h2>
+<h3><span>Data Analytics in Line-of-Sight (LOS) &amp; Non-Line-Sight (NLOS) Wireless Signal Prediction </span> <span>Jan 2024 &ndash; Present</span></h3>
+<ul>
+<li>Project entails the proposition of a data analytics solution to predict Line-of-Sight (LOS) &amp; Non-Line-Sight (NLOS) Wireless Signals in indoor environments for precise localisation.</li>
+<li>Leveraged data preprocessing techniques, conducted tests comparing machine learning models to determine the most appropriate model.</li>
+<li>Project is done in python.</li>
+</ul>
+<h3><span>LabEquip Mobile Application</span> <span>Jan 2024 &ndash; Present</span></h3>
+<ul>
+<li>Educational application that identifies lab equipment and displays the related information so that students are able to use lab equipment safely and correctly.</li>
+<li>Utilises the Pytorch framework to implement YOLOv8 object detection model to train and detect lab equipment in photographs.</li>
+<li>Application is done in Kotlin with Room database.</li>
+</ul>
+<h3><span>Mimibot | Speech Analytics for Children </span> <span>Nov 2020 &ndash; April 2021</span></h3>
+<ul>
+<li>Uses Google&rsquo;s AI-powered DialogFlow to program the conversational capabilities of a chatbot.</li>
+<li>Utilises BrainJS as a neural network to conduct sentimental analysis on the conversations the robot has with the children.</li>
+<li>Uses Google Nest as an interaction platform for children, an Angular framework for the front-end UI for parents, NodeJS as backend, and Google&rsquo;s Firebase as a NoSQL database.</li>
+</ul>
+<h2>Courses / Certifications</h2>
+<h3><span>AWS Academy Cloud Foundations</span></h3>
+<ul>
+<li>Gives an overall understanding of cloud computing concepts, independent of specific technical roles.</li>
+<li>Provides a detailed overview of cloud concepts, AWS core services, security, architecture, pricing, and support.</li>
+</ul>
+<h3><span>AWS Academy Cloud Architecting</span></h3>
+<ul>
+<li>Covers the fundamentals of building IT infrastructure on AWS and helps students gain the skills they need to pursue the AWS Certified Solutions Architect – Associate certification.</li>
+</ul>
+<h3><span>Azure Fundamentals AZ900</span></h3>
+<ul>
+<li>Covers the fundamentals of building IT infrastructure on Azure, and provides a detailed overview on Azure services, security, architecture, and support.</li>
+<li>Is a prerequisite for other courses offered by Azure.</li>
+</ul>
+<h3><span>Google Data Analytics Professional Certificate</span></h3>
+<ul>
+<li>Goes through technologies, concepts, and programming languages popular in the data analytics sphere; i.e Python, matplotlib, pandas, R, and visualisation tools.</li>
+<li>Handle the cleaning, pre-processing, modelling and visualisation of datasets.</li>
+</ul>
+<h3><span>UiPath Robotic Process Automation (RPA) Development </span></h3>
+<ul>
+<li>Additional Programme offered by Nanyang Polytechnic.</li>
+<li>Covers UiPath utility, worked on building an Optimal Character Recognition (OCR) solution to collate information from PDF Documents.</li>
+</ul>
+<h2>Education</h2>
+<h3><span>Singapore Institute of Technology and University of Glasgow</span> <span>2022 &ndash; Present</span></h3>
+<ul>
+<li>Undergraduate in Computing Science.</li>
+<li>Actively seeking out experiences and job opportunities to sharpen my skillsets.</li>
+</ul>
+<h3><span>Nanyang Polytechnic</span> <span>2018 &ndash; 2020</span></h3>
+<ul>
+<li>Diploma in Information Technology with a Specialisation in Business Analytics.</li>
+<li>Course of study entailed the completion of various software engineering projects, which familiarised me in working with multiple technology stacks, frameworks, and programming best practices.</li>
+<li>Expressed my passion for the computing field by being active in my school committee, serving as an EXCO member to organise and facilitate school IT-related events.</li>
+</ul></div>
+</body>
+</html>
