@@ -4,95 +4,78 @@
 - Github <https://github.com/lk941>
 - Singapore
 
-A proactive, independent learner seeking to build a rewarding career in the IT industry. With a focus on software engineering and data analytics, I thrive on challenges and working effectively in a team to learn, grow, and contribute positively to business outcomes. 
+A proactive Computing Science undergraduate experienced in full-stack development, programming, and system design. Passionate about building scalable solutions and contributing to business outcomes with technical expertise.
 
-## Skills
+## Skills/Experience
 
- - Programming (High & low level)
- - Full Stack Development
-
-## Experience
-
-### <span>Coding</span>
-
- - Python, C, C#, C++, Javascript, Java, Assembly
-
-### <span>Technologies/Environment</span>
-
- - Windows, Google Suite, Linux, Web frameworks, Docker, Kubernetes
+ - Programming: Python, Java, C, PHP, JavaScript, SQL
+ - Frameworks: FastAPI, Spring Boot, Next.js, PyTorch
+ - Technologies: Linux, Docker, Kubernetes, MongoDB, MySQL, Firebase
+ - Tools: GitLab, Tableau, CI/CD Pipelines
 
 ## Employment History
 
-### <span>Programmer Analyst at Cognizant Technology Solutions</span> <span>July 2021 - Aug 2022</span>
+### Quality Assurance Intern
+<span> PSA International, Singapore | Sep 2024 – Apr 2025 (Present) </span>
 
- - Configured build automation tools; migrated CI/CD pipelines for deploying client banking applications from TeamCity to GitLab with Ansible. 
- - Worked with Java 11, Maven, and Spring Boot framework.
- - Implemented new test cases (TDD) with JUnit for client banking application service to save time on testing efforts.
+ - Designed and and implemented solution architecture for an automated end-to-end testing application for a capstone project, streamlining software quality processes (see Projects).
+ - Executed 120–300 test cases per project for global systems, enhancing reliability and compliance.
+ - Developed defect analysis tools, reducing reporting efforts by 50% and redundant bug occurrences by 15%.
+ - Collaborated with cross-functional teams to deliver high-quality software adhering to Agile practices.
 
-### <span>System Analyst at United Overseas Bank (UOB) </span> <span>Mar 2021 -- Jun 2021</span>
+### Java Developer
+Cognizant Technology Solutions, Singapore | Jul 2021 – Aug 2022
 
- - Worked on a technical upgrade project for the company's mobile banking application in the quality assurance team. Primary role was executing test scripts, producing reports, and simulating test environments with IBM legacy systems.
- - Documented application states, raised defects, and assisted in troubleshooting bugs.
+ - Provided technology consulting services in the banking & finance sector, configured build automation tools and migrated CI/CD pipelines for client banking applications from TeamCity to GitLab with Ansible.
+ - Developed RESTful APIs using Java and Spring Boot, and automated backend testing with JUnit.
+ - Worked in Agile teams, optimizing deployment efficiency and ensuring robust backend functionality.
 
 ## Projects
 
-### <span>Data Analytics in Line-of-Sight (LOS) & Non-Line-Sight (NLOS) Wireless Signal Prediction </span> <span>Jan 2024 -- Present</span>
+### AI Automation Software for QA
+Capstone Project
+ - Built an AI-powered application for test script automation, reducing manual efforts by 30%.
+ - Tech stack: RESTful APIs with FastAPI, Python GUI, OpenAI API integration.
+ - Designed, implemented, and successfully pitched the solution to department management.
+ - Integrated Docker and Kubernetes for scalable deployments.
 
- - Project entails the proposition of a data analytics solution to predict Line-of-Sight (LOS) & Non-Line-Sight (NLOS) Wireless Signals in indoor environments for precise localisation.
- - Leveraged data preprocessing techniques, conducted tests comparing machine learning models to determine the most appropriate model.
- - Project is done in python.
+### LabEquip Mobile Application
+ - Designed backend systems for an educational app to identify lab equipment using PyTorch and Kotlin.
+ - Built object detection and database systems to support safe lab equipment usage.
 
-### <span>LabEquip Mobile Application</span> <span>Jan 2024 -- Present</span>
+### Mimibot - AI Chatbot with Data Visualisation for Children's Development
+ - Global Semi-Finalist project at the Microsoft ImagineCup 2021 (Team Mimibot)
+ - Web Application with chatbot integration (Google Nest) that interacts with children to check in on their mental and developmental well-being by detecting key phrases and prompting further conversation.
+ - Tech stack: Angular, Azure Web Apps, Google DialogFlow, Google Nest, Google Firebase, NodeJS, BrainJS, ChartJS.
 
- - Educational application that identifies lab equipment and displays the related information so that students are able to use lab equipment safely and correctly.
- - Utilises the Pytorch framework to implement YOLOv8 object detection model to train and detect lab equipment in photographs.
- - Application is done in Kotlin with Room database.
+## Leadership
 
-### <span>Mimibot | Speech Analytics for Children </span> <span>Nov 2020 -- April 2021</span>
+### Executive Committee Member (Senior Ambassador), SIT (School of Information Technology) Club | Nanyang Polytechnic
+ 
+ - Led school events and organised IT-related events.
+ - Nominated as Logistics Assistant-in-Charge (AIC) for the 2019 Freshman Orientation and emceed for the event.
 
- - Uses Google's AI-powered DialogFlow to program the conversational capabilities of a chatbot.
- - Utilises BrainJS as a neural network to conduct sentimental analysis on the conversations the robot has with the children.
- - Uses Google Nest as an interaction platform for children, an Angular framework for the front-end UI for parents, NodeJS as backend, and Google's Firebase as a NoSQL database.
+### Vice-President, Current Affairs & Debate Club | Nanyang Polytechnic
 
-
-
+ - Planned and facilitated club events, trainings, and competitions.
+ - Practiced public speaking, presentation, and communication skills.
 
 ## Courses / Certifications
 
-### <span>AWS Academy Cloud Foundations</span>
-
- - Gives an overall understanding of cloud computing concepts, independent of specific technical roles.
- - Provides a detailed overview of cloud concepts, AWS core services, security, architecture, pricing, and support.
-
-### <span>AWS Academy Cloud Architecting</span>
-
- - Covers the fundamentals of building IT infrastructure on AWS and helps students gain the skills they need to pursue the AWS Certified Solutions Architect – Associate certification.
-
-### <span>Azure Fundamentals AZ900</span>
-
- - Covers the fundamentals of building IT infrastructure on Azure, and provides a detailed overview on Azure services, security, architecture, and support.
-- Is a prerequisite for other courses offered by Azure.
-
-### <span>Google Data Analytics Professional Certificate</span>
-
- - Goes through technologies, concepts, and programming languages popular in the data analytics sphere; i.e Python, matplotlib, pandas, R, and visualisation tools.
- - Handle the cleaning, pre-processing, modelling and visualisation of datasets.
-
-### <span>UiPath Robotic Process Automation (RPA) Development </span>
-
-- Additional Programme offered by Nanyang Polytechnic.
-- Covers UiPath utility, worked on building an Optimal Character Recognition (OCR) solution to collate information from PDF Documents.
+ - Cloud Technologies: AWS Academy Cloud Foundations, AWS Academy Cloud Architecting, Azure Fundamentals AZ900, Google Data Analytics Professional Certificate, UiPath Robotic Process Automation (RPA) Development
+ - Languages: French, Diplôme d'Études en Langue Française (DELF) A1 Examination
 
 ## Education
 
-### <span>Singapore Institute of Technology and University of Glasgow</span> <span>2022 -- Present</span>
+### Singapore Institute of Technology and University of Glasgow
+Bachelor's Degree in Computing Science (Specialization in Internet-of-Things (IoT)) | 2022 – Graduating May 2025
 
- - Undergraduate in Computing Science.
- - Actively seeking out experiences and job opportunities to sharpen my skillsets.
+ - Coursework: IoT Systems, Full-Stack Development, Scalable Software Design, Artificial Intelligence, System Architecture, and Cloud Computing.
+ - Teaching Assistant for the Introduction to Computer Systems (INF1101) module for 2 semesters, guiding students in Python programming and Linux command-line fundamentals.
 
-### <span>Nanyang Polytechnic</span> <span>2018 -- 2020</span>
+### Nanyang Polytechnic
+Diploma in Information Technology (Specialization in Business Analytics) | 2018 – 2020
 
- - Diploma in Information Technology with a Specialisation in Business Analytics.
- - Course of study entailed the completion of various software engineering projects, which familiarised me in working with multiple technology stacks, frameworks, and programming best practices.
- - Expressed my passion for the computing field by being active in my school committee, serving as an EXCO member to organise and facilitate school IT-related events.
-
+ - Received the IMDA (Infocomm Media Development Authority) IPoly Scholarship.
+ - Familiarized with multiple technology stacks, frameworks, and programming best practices.
+ - Active EXCO member, organizing and facilitating school IT-related events.
